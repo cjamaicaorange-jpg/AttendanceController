@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AttendanceManagementAppService">
+      <HintPath>..\..\..\Downloads\AttendanceManagementsys\AttendanceManagementSystem\AttendanceManagementAppService\bin\Debug\net8.0\AttendanceManagementAppService.dll</HintPath>
+    </Reference>
+    <Reference Include="AttendanceManagementDataService">
+      <HintPath>..\..\..\Downloads\AttendanceManagementsys\AttendanceManagementSystem\AttendanceManagementAppService\bin\Debug\net8.0\AttendanceManagementDataService.dll</HintPath>
+    </Reference>
+    <Reference Include="AttendanceManagementModels">
+      <HintPath>..\..\..\Downloads\AttendanceManagementsys\AttendanceManagementSystem\AttendanceManagementModels\bin\Debug\net8.0\AttendanceManagementModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
